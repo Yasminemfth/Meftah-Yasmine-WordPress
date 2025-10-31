@@ -57,11 +57,12 @@ J’ai modifié les couleurs, les polices et la mise en page pour rendre le site
 - wp → *supprime le footer d’origine et ajoute le footer personnalisé.*
 - astra_footer → *affiche le nouveau footer créé.*
 
-5) Avant/Après
+### 5) Avant/Après
 
 #### Header
 
 Avant :
+
 <img width="751" height="79" alt="Header avant" src="https://github.com/user-attachments/assets/429a188a-b622-4ac6-88a0-c7fe52d53e0f" />
 
 Après :
@@ -81,5 +82,3 @@ Avant :
 
 Après : 
 <img width="1887" height="850" alt="image" src="https://github.com/user-attachments/assets/f44e4c17-de0a-40c6-adb5-638e2a00e439" />
-
-
