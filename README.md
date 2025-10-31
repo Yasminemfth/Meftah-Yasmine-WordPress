@@ -1,16 +1,19 @@
- 📘 Les 2 types de Hooks
+1) Header
 
-| Type   | Fonction              | Exemple d’usage                        | Exemple de code |
-|--------|------------------------|----------------------------------------|-----------------|
-| **Action** | Ajouter du code          | Afficher un texte dans le footer        | `add_action()`  |
-| **Filter** | Modifier une donnée      | Changer un titre d’article avant affichage | `add_filter()`  |
+Ajout du titre “Yasmine Portfolio” sous le header (hook astra_header_markup_after).
 
----
+Suppression de la partie Social du header d’Astra (astra_remove_header_section('social')).
 
-## ⚡ Exemple de Hook **ACTION**
+Suppression de l’onglet Home du menu.
 
-### Ajouter du texte dans le footer :
-```php
-add_action('wp_footer', function () {
-    echo '<p>Merci de votre visite 🌟</p>';
-});
+Changement des noms du menu :
+
+Services → Expériences Professionnelles
+
+About → Formations
+
+Reviews → Compétences
+
+Why Us → Centres d’intérêts
+
+Contact → Projets
