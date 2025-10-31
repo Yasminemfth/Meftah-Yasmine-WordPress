@@ -1,11 +1,13 @@
 1) Header
 
-- Suppression de la partie Social du header d’Astra (astra_remove_header_section('social')).
-
+- Suppression de la partie Social du header d’Astra .
+```php
+astra_remove_header_section('social'))
+```
 - Suppression de l’onglet Home du menu.
 ```php
 add_filter( 'wp_nav_menu_objects', function ( $items, $args ) {
-    // le menu principal Astra
+    // le menu principal Astra supression du lien Home
     if ( isset( $args->theme_location ) && $args->theme_location === 'primary' ) {
         foreach ( $items as $key => $item ) {
             if ( trim( $item->title ) === 'Home' ) {
