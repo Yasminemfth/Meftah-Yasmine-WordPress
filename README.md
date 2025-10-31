@@ -1,3 +1,11 @@
+## Informations générales :
+- Thème Parent : Astra
+- Thème Enfant : Astra - Child
+- Auteur : Yasmine Meftah
+- Date : Octobre 2025
+
+## Modifications effectués :
+
 ### 1) Header
 
 - Suppression de la partie Social du header d’Astra .
@@ -34,7 +42,7 @@ Il contient :
  - Un menu fixe en HTML centré.
  - Une mention copyright: © [année] – Designed by Yasmine.
 
-### 3) CSS (exemples)
+### 3) CSS 
 
 J’ai modifié les couleurs, les polices et la mise en page pour rendre le site plus chaleureux , personnel et qui me correspond mieu.
 
