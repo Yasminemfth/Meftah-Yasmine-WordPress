@@ -1,0 +1,114 @@
+/*
+Theme Name: Astra Child
+Template: astra
+Version: 1.0.0
+Text Domain: astra-child
+Description: Thème enfant basé sur Astra (header et footer personnalisés)
+*/
+
+/* GLOBAL */
+.site {
+  background-color: #FAEBD7; /* Fond crème du site */
+}
+
+/* HEADER */
+.ast-primary-header-bar {
+  background-color: #DDBE95 !important; /* Fond beige du header */
+  box-shadow: 0 6px 18px rgba(139, 99, 43, 0.55); /* Ombre sous le header */
+}
+
+.menu-link {
+  color: #000 !important; /* Liens du menu en noir */
+  font-family: Georgia, 'Times New Roman', Times, serif; /* Police classique */
+  font-style: italic; /* Texte en italique */
+}
+
+.menu-link:hover {
+  color: #bb7900 !important; /* Couleur dorée au survol */
+}
+
+/* FOOTER */
+.site-footer {
+  background: rgb(221, 190, 149); /* Fond beige clair */
+  color: #000;
+  text-align: center;
+  padding-top: 2rem;
+}
+
+.footer-inner {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1.75rem;
+}
+
+/* Icônes rs */
+.footer-social {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1.25rem;
+}
+
+.footer-social a {
+  display: inline-flex;
+  width: 56px;
+  height: 56px;
+  border-radius: 50%;
+  background: #febf4a; 
+  align-items: center;
+  justify-content: center;
+  transition: transform .25s, background-color .25s, box-shadow .25s;
+}
+
+.footer-social img {
+  width: 26px;
+  height: 26px;
+  display: block;
+}
+
+.footer-social a:hover {
+  background: #bb7900; /* Doré foncé au survol */
+  transform: translateY(-2px) scale(1.07);
+  box-shadow: 0 6px 18px rgba(187, 121, 0, .35);
+}
+
+.footer-social a:hover img {
+  filter: brightness(0) invert(1); /* Icônes deviennent blanches */
+}
+
+/* Menu du footer */
+.footer-menu .menu {
+  list-style: none;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 2rem;
+  margin: 0;
+  padding: 0;
+}
+
+.footer-menu .menu a {
+  text-decoration: none;
+  color: #000;
+  font-family: Georgia, serif;
+  font-size: 1.05rem;
+  transition: color .2s ease;
+}
+
+.footer-menu .menu a:hover {
+  color: #bb7900; /* Doré au survol */
+}
+
+/* Copyright */
+.footer-bottom {
+  background: rgb(174, 144, 102); /* Bande plus foncée pour le copyright */
+  margin-top: 1.25rem;
+  padding: .8rem 0;
+}
+
+.copy {
+  margin: 0;
+  font-size: .95rem;
+  letter-spacing: .3px;
+}
